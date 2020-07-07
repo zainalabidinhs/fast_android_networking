@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Mahasiswa"
+        android:gravity="center"
+        android:fontFamily="@font/semibold"
+        android:textSize="17sp"/>
+
+        <EditText
+            android:id="@+id/txt_Nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="nim"
+            android:fontFamily="@font/lightitalic"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:fontFamily="@font/lightitalic"
+            android:id="@+id/txt_Nama"
+            android:hint="nama lengkap"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:fontFamily="@font/lightitalic"
+            android:id="@+id/txt_Kelas"
+            android:hint="kelas"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"/>
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_Tambah"
+        android:text="Tambah Data"
+        android:textStyle="bold"
+        android:fontFamily="@font/bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/garis_text_view"/>
+
+    <Button
+        android:fontFamily="@font/bold"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_Lihat"
+        android:text="Lihat Data"
+        android:textStyle="bold"
+        android:textColor="@color/warnaputih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/backgroundgaul"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textListMahasiswaNim"
+        android:text="nim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textListMahasiswaNama"
+        android:text="nama"
+        android:layout_below="@+id/textListMahasiswaNim"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textListMahasiswaKelas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="kelas"
+        android:layout_below="@+id/textListMahasiswaNama"/>
+
+</RelativeLayout>
